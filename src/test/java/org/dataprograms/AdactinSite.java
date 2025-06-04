@@ -19,7 +19,7 @@ public class AdactinSite extends DriverUtils{
 		windowOp(MethodUtils.max);
 		urlInit("https://adactinhotelapp.com/");
 		driverWait(10);
-		//Edit Options?
+		
 	}
 	
 	
