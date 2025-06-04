@@ -38,6 +38,7 @@ public class AdactinSite extends DriverUtils{
 				new ProductModels("Reconnect", "Cable"),
 				new ProductModels("LG", "Washing Machine"),
 				new ProductModels("fire boltt", "Smart Watch"),
+				new ProductModels(brand, model)
 		};
 
 	}
