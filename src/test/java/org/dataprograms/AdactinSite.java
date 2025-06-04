@@ -5,6 +5,7 @@ import org.baseclass.MethodUtils;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class AdactinSite extends DriverUtils{
@@ -14,10 +15,11 @@ public class AdactinSite extends DriverUtils{
 		driverInit(MethodUtils.EDGE);
 	}
 	
+	@Parameters("url")
 	@BeforeTest
-	private void siteLaunch(){
+	private void siteLaunch(String url){
 		windowOp(MethodUtils.max);
-		urlInit("https://adactinhotelapp.com/");
+		urlInit(url);
 		driverWait(10);
 		
 	}
@@ -28,8 +30,7 @@ public class AdactinSite extends DriverUtils{
 		locate(MethodUtils.id, "username").sendKeys("abcde");
 		locate(MethodUtils.id, "password").sendKeys("password");
 		locate(MethodUtils.id, "login").click();
-		//hewuefhewfewf
-		//Updated
+		
 
 	}
 	
