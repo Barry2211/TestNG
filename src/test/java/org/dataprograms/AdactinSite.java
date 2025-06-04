@@ -27,7 +27,8 @@ public class AdactinSite extends DriverUtils{
 	private void Program() {
 		locate(MethodUtils.id, "username").sendKeys("abcde");
 		locate(MethodUtils.id, "password").sendKeys("password");
-		//locate(MethodUtils.id, "login").click();
+		locate(MethodUtils.id, "login").click();
+		//ewfewoifjewfewf
 
 	}
 	
