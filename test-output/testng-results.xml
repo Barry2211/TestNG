@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-02T12:47:23 IST" name="Default suite" finished-at="2025-06-02T12:47:24 IST" duration-ms="1541">
+  <suite started-at="2025-06-04T19:00:57 IST" name="Suite" finished-at="2025-06-04T19:01:00 IST" duration-ms="3135">
     <groups>
     </groups>
-    <test started-at="2025-06-02T12:47:23 IST" name="Default test" finished-at="2025-06-02T12:47:24 IST" duration-ms="1541">
+    <test started-at="2025-06-04T19:00:57 IST" name="Test" finished-at="2025-06-04T19:01:00 IST" duration-ms="3135">
       <class name="org.dataprograms.AdactinSite">
-        <test-method is-config="true" signature="lunch()[pri:0, instance:org.dataprograms.AdactinSite@73eb439a]" started-at="2025-06-02T12:47:19 IST" name="lunch" finished-at="2025-06-02T12:47:23 IST" duration-ms="3894" status="PASS">
+        <test-method is-config="true" signature="lunch()[pri:0, instance:org.dataprograms.AdactinSite@7a5ceedd]" started-at="2025-06-04T19:00:54 IST" name="lunch" finished-at="2025-06-04T19:00:57 IST" duration-ms="2944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunch -->
-        <test-method is-config="true" signature="siteLaunch()[pri:0, instance:org.dataprograms.AdactinSite@73eb439a]" started-at="2025-06-02T12:47:23 IST" name="siteLaunch" finished-at="2025-06-02T12:47:24 IST" duration-ms="1276" status="PASS">
+        <test-method is-config="true" signature="siteLaunch(java.lang.String)[pri:0, instance:org.dataprograms.AdactinSite@7a5ceedd]" started-at="2025-06-04T19:00:57 IST" name="siteLaunch" finished-at="2025-06-04T19:00:59 IST" duration-ms="2352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- siteLaunch -->
-        <test-method signature="Program()[pri:0, instance:org.dataprograms.AdactinSite@73eb439a]" started-at="2025-06-02T12:47:24 IST" name="Program" finished-at="2025-06-02T12:47:24 IST" duration-ms="203" status="PASS">
+        <test-method signature="Program()[pri:0, instance:org.dataprograms.AdactinSite@7a5ceedd]" started-at="2025-06-04T19:00:59 IST" name="Program" finished-at="2025-06-04T19:01:00 IST" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program -->
       </class> <!-- org.dataprograms.AdactinSite -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
