@@ -175,8 +175,7 @@ public class DriverUtils {
 		element.sendKeys(context);
 	}
 	
-	public static void robot(String sequence,MethodUtils key) throws AWTException {
-		int keycode= KeyEvent.getExtendedKeyCodeForChar(sequence.charAt(0));
+	public static void robot(int keycode,MethodUtils key) throws AWTException {
 		switch(key) {
 		case press:
 			new Robot().keyPress(keycode);
