@@ -3,6 +3,7 @@ package org.dataprograms;
 import java.time.Duration;
 import java.util.List;
 
+import org.baseclass.ProductModels;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -93,12 +94,3 @@ public class Program1 {
 	}
 }
 
-
-class ProductModels{
-	public String brand;
-	public String model;
-	public ProductModels(String brand,String model) {
-		this.brand=brand;
-		this.model=model;
-	}
-}

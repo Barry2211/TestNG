@@ -2,23 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="url" value="https://www.jiomart.com/"/>
-    <groups>
-      <run>
-        <exclude name="signIn"/>
-        <exclude name="productBuy"/>
-        <exclude name="placeOrder"/>
-      </run>
-    </groups>
+    <parameter name="url" value="https://adactinhotelapp.com/"/>
     <classes>
-      <class name="org.groups.Program1">
+      <class name="org.adactin.AdactinLogin">
         <methods>
-          <include name="siteLaunch"/>
           <include name="lunch"/>
-          <include name="productAddToCart"/>
-          <include name="Cart"/>
+          <include name="Program" invocation-numbers="0"/>
+          <include name="siteLaunch"/>
         </methods>
-      </class> <!-- org.groups.Program1 -->
+      </class> <!-- org.adactin.AdactinLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
