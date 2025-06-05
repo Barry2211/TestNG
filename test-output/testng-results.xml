@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-05T10:08:23 IST" name="Suite" finished-at="2025-06-05T10:08:27 IST" duration-ms="3314">
+  <suite started-at="2025-06-05T11:18:04 IST" name="Suite" finished-at="2025-06-05T11:18:13 IST" duration-ms="9355">
     <groups>
     </groups>
-    <test started-at="2025-06-05T10:08:23 IST" name="Test" finished-at="2025-06-05T10:08:27 IST" duration-ms="3314">
+    <test started-at="2025-06-05T11:18:04 IST" name="Test" finished-at="2025-06-05T11:18:13 IST" duration-ms="9355">
       <class name="org.adactin.AdactinSite">
-        <test-method is-config="true" signature="lunch()[pri:0, instance:org.adactin.AdactinSite@4201c465]" started-at="2025-06-05T10:08:22 IST" name="lunch" finished-at="2025-06-05T10:08:23 IST" duration-ms="1376" status="PASS">
+        <test-method is-config="true" signature="lunch()[pri:0, instance:org.adactin.AdactinSite@4201c465]" started-at="2025-06-05T11:18:01 IST" name="lunch" finished-at="2025-06-05T11:18:04 IST" duration-ms="3212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunch -->
-        <test-method is-config="true" signature="siteLaunch(java.lang.String)[pri:0, instance:org.adactin.AdactinSite@4201c465]" started-at="2025-06-05T10:08:25 IST" name="siteLaunch" finished-at="2025-06-05T10:08:25 IST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="siteLaunch(java.lang.String)[pri:0, instance:org.adactin.AdactinSite@4201c465]" started-at="2025-06-05T11:18:05 IST" name="siteLaunch" finished-at="2025-06-05T11:18:06 IST" duration-ms="93" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,17 +22,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- siteLaunch -->
-        <test-method signature="Program()[pri:0, instance:org.adactin.AdactinSite@4201c465]" started-at="2025-06-05T10:08:25 IST" name="Program" finished-at="2025-06-05T10:08:25 IST" duration-ms="373" status="PASS">
+        <test-method signature="Program()[pri:0, instance:org.adactin.AdactinSite@4201c465]" started-at="2025-06-05T11:18:06 IST" name="Program" finished-at="2025-06-05T11:18:06 IST" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program -->
       </class> <!-- org.adactin.AdactinSite -->
       <class name="org.adactin.AdactinLogin">
-        <test-method is-config="true" signature="lunch()[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T10:08:18 IST" name="lunch" finished-at="2025-06-05T10:08:22 IST" duration-ms="3771" status="PASS">
+        <test-method is-config="true" signature="lunch()[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T11:17:58 IST" name="lunch" finished-at="2025-06-05T11:18:01 IST" duration-ms="2719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunch -->
-        <test-method is-config="true" signature="siteLaunch(java.lang.String)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T10:08:23 IST" name="siteLaunch" finished-at="2025-06-05T10:08:25 IST" duration-ms="1242" status="PASS">
+        <test-method is-config="true" signature="siteLaunch(java.lang.String)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T11:18:04 IST" name="siteLaunch" finished-at="2025-06-05T11:18:05 IST" duration-ms="1565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,102 +43,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- siteLaunch -->
-        <test-method signature="Program(org.baseclass.ProductModels)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T10:08:25 IST" name="Program" data-provider="searchSpecs" finished-at="2025-06-05T10:08:25 IST" duration-ms="327" status="FAIL">
+        <test-method signature="Program(org.baseclass.ProductModels)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T11:18:06 IST" name="Program" data-provider="searchSpecs" finished-at="2025-06-05T11:18:08 IST" duration-ms="2475" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.baseclass.ProductModels@62e8f862]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=137.0.7151.56)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28684367b38654c65b35c334ac4e177c, sendKeysToElement {value=[Ljava.lang.CharSequence;@7d2a6eac, id=f.41D6808466F14C2F29EC051C3F697B78.d.43A2EE2078A3C7349CB2DDD568DA90E8.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\PROGRA~1\KMSpico\temp\sc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54884/devtoo..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (28684367b38654c65b35c334ac4e177c)] -> id: username]
-Session ID: 28684367b38654c65b35c334ac4e177c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=137.0.7151.56)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28684367b38654c65b35c334ac4e177c, sendKeysToElement {value=[Ljava.lang.CharSequence;@7d2a6eac, id=f.41D6808466F14C2F29EC051C3F697B78.d.43A2EE2078A3C7349CB2DDD568DA90E8.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\PROGRA~1\KMSpico\temp\sc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54884/devtoo..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (28684367b38654c65b35c334ac4e177c)] -> id: username]
-Session ID: 28684367b38654c65b35c334ac4e177c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at org.adactin.AdactinLogin.Program(AdactinLogin.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Program -->
-        <test-method signature="Program(org.baseclass.ProductModels)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T10:08:25 IST" name="Program" data-provider="searchSpecs" finished-at="2025-06-05T10:08:26 IST" duration-ms="485" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.baseclass.ProductModels@125c082e]]>
+                <![CDATA[org.baseclass.ProductModels@7c148a51]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program -->
-        <test-method signature="Program(org.baseclass.ProductModels)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T10:08:26 IST" name="Program" data-provider="searchSpecs" finished-at="2025-06-05T10:08:27 IST" duration-ms="733" status="PASS">
+        <test-method signature="Program(org.baseclass.ProductModels)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T11:18:08 IST" name="Program" data-provider="searchSpecs" finished-at="2025-06-05T11:18:11 IST" duration-ms="2557" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.baseclass.ProductModels@415e0bcb]]>
+                <![CDATA[org.baseclass.ProductModels@55d8fdae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Program -->
+        <test-method signature="Program(org.baseclass.ProductModels)[pri:0, instance:org.adactin.AdactinLogin@7bd7d6d6]" started-at="2025-06-05T11:18:11 IST" name="Program" data-provider="searchSpecs" finished-at="2025-06-05T11:18:13 IST" duration-ms="2581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.baseclass.ProductModels@51de33b5]]>
               </value>
             </param>
           </params>

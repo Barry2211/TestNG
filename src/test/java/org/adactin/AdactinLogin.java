@@ -1,5 +1,7 @@
 package org.adactin;
 
+import java.util.concurrent.TimeUnit;
+
 import org.baseclass.DriverUtils;
 import org.baseclass.MethodUtils;
 import org.baseclass.ProductModels;
@@ -28,9 +30,10 @@ public class AdactinLogin extends DriverUtils{
 	
 	
 	@Test(dataProvider="searchSpecs")
-	private void Program(ProductModels model) {
+	private void Program(ProductModels model) throws InterruptedException {
 		locate(MethodUtils.id, "username").sendKeys(model.brand);
 		locate(MethodUtils.id, "password").sendKeys(model.model);
+		TimeUnit.SECONDS.sleep(2);
 		locate(MethodUtils.id, "login").click();
 
 	}

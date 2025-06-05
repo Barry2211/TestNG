@@ -13,7 +13,7 @@ public class AdactinSite extends DriverUtils{
 	
 	@BeforeSuite
 	private void lunch() {
-		driverInit(MethodUtils.CHROME);
+		driverInit(MethodUtils.EDGE);
 	}
 	
 	@Parameters("url")
@@ -33,16 +33,5 @@ public class AdactinSite extends DriverUtils{
 		locate(MethodUtils.id, "login").click();
 
 	}
-	
-	@DataProvider(name = "searchSpecs")
-	public ProductModels[] searchSpecsData() {
-		return new ProductModels[] {
-				new ProductModels("Reconnect", "Cable"),
-				new ProductModels("LG", "Washing Machine"),
-				new ProductModels("fire boltt", "Smart Watch"),
-		};
-
-	}
-	
 
 }
