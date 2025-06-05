@@ -1,7 +1,8 @@
-package org.dataprograms;
+package org.adactin;
 
 import org.baseclass.DriverUtils;
 import org.baseclass.MethodUtils;
+import org.baseclass.ProductModels;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -12,7 +13,7 @@ public class AdactinSite extends DriverUtils{
 	
 	@BeforeSuite
 	private void lunch() {
-		driverInit(MethodUtils.EDGE);
+		driverInit(MethodUtils.CHROME);
 	}
 	
 	@Parameters("url")
@@ -30,7 +31,6 @@ public class AdactinSite extends DriverUtils{
 		locate(MethodUtils.id, "username").sendKeys("abcde");
 		locate(MethodUtils.id, "password").sendKeys("password");
 		locate(MethodUtils.id, "login").click();
-		//ewfewoifjewfewf
 
 	}
 	

@@ -184,6 +184,8 @@ public class DriverUtils {
 		case release:
 			new Robot().keyRelease(keycode);
 			break;		
+		default:
+			System.out.println("Invalid key");
 		}
 	}
 	
