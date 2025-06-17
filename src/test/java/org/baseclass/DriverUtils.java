@@ -20,7 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class DriverUtils {
+public class DriverUtils implements javaScriptCommands{
 	
 	public static WebDriver driver;
 	
